@@ -203,20 +203,14 @@ curl localhost:5000/categories
 #### Example Response
 ```json
 {
-  "categories": [
-    {
-      "id": 1,
-      "type": "Science"
-    },
-    {
-      "id": 2,
-      "type": "Art"
-    },
-    {
-      "id": 3,
-      "type": "Geography"
-    }
-  ],
+  "categories": {
+    "1": "Science",
+    "2": "Art",
+    "3": "Geography",
+    "4": "History",
+    "5": "Entertainment",
+    "6": "Sports"
+  },
   "success": true
 }
 ```
